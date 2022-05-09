@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"href="style.css">
+    <title>Welcome!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <script>
+     function contact() {
+       alert ("Phone us on: 01179863551447"); // this is the function for the button, it goes through the onclick and outputs a javascript alert//
+     }
+  
+    </script>
+   <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet"> <!--- this allows me to use the emojis in the text-->
+
+  </head>
+
+    <body>
+    <!-- centered and large -->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand"><img class="img-responsive" width="100px" height="100px" src="bella.png" alt="logo"> </a> <!-- adding a logo here !-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Dropdown" aria-controls="Dropdown" aria-expanded="false" aria-label="Toggle navigation"> <!-- this allows the dropdown options to occur!-->
+            <span class="navbar-toggler-icon"></span> 
+          </button>
+          <div class="collapse navbar-collapse" id="Dropdown"> <!-- this id connects the button on the right side to the drpodwon options!-->
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+              </li> <!-- these link to the pages for where they want to go to !--> 
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>        
+          </div>
+        </div>
+            </div>
+          </div>
+        </div>
+    </nav>
+        <h1> <img class="img-responsive" width="300px" height="200px" src="bellavita.png" alt="text"> </h1>
+<!-- contact button here with promotion text to the left-->
+<h1>Order now online for 10% off! Or alternatively <br>
+    <button type="button" class="btn btn-secondary btn-lg" onclick="contact()">Phone the restaurant</button> <!-- the onclick calls a function called contact, which is the number of the restraunt-->
+</button></h1>
+<!-- carosuel here !-->
+
+<div id="carouselitaly" class="carousel slide carousel-fade"  data-bs-ride="carousel"> <!-- fade allows the pictures to have a fade effect to the next image-->
+  <div class="carousel-indicators"> 
+    <button type="button" data-bs-target="#carouselitaly" data-bs-slide-to="0" class="active" aria-current="true" aria-label="1"></button>
+    <button type="button" data-bs-target="#carouselitaly" data-bs-slide-to="1" aria-label="2"></button>
+    <button type="button" data-bs-target="#carouselitaly" data-bs-slide-to="2" aria-label="3"></button>
+  </div>
+  <div class="carousel-inner"> <!-- the inner is where the info is stored like the class and the image sources-->
+    <div class="carousel-item active"> 
+      <img src="italy11.png" class="d-block w-100" height = "500px" alt="seating"> <!-- these are the images and the alt describes them-->
+    </div>
+    <div class="carousel-item">
+      <img src="italy12.png" class="d-block w-100" height = "500px" alt="food">
+    </div>
+    <div class="carousel-item">
+      <img src="italy13.png" class="d-block w-100" height = "500px"alt="country">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselitaly"  data-bs-slide="prev"> <!-- these control the buttons on the carousel-->
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselitaly"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<br> <!-- this is to seperate the text below the carousel-->
+<br>
+<br>
+
+<p> Here at Bella Vita we value every customer and treat them to a fresh home cooked meal!
+    <br>
+    We want to bring our traditional Italian cooking directly to you... made with love! <i class="em em-hearts" aria-role="presentation" aria-label="BLACK HEART SUIT"></i>
+    </p>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- paragraph with some infomation -->
+
+</body>
+<!-- end make page static-->
+<!-- footer saying who made it-->
+
+
+<footer>
+  <P><small> Made by Ian Mawman ©2021</small></P>
+</footer>
+
+</html>
